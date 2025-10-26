@@ -1,0 +1,270 @@
+!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Felt But Not Shared````    ` 💖</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: "Poppins", sans-serif;
+    }
+
+    body {
+      background: linear-gradient(135deg, #ffb6c1, #ffc0cb, #ffe4e1);
+      overflow-x: hidden;
+      color: #5a1846;
+      text-align: center;
+    }
+
+    header {
+      padding: 40px 20px 10px;
+      font-size: 2rem;
+      font-weight: bold;
+      color: #d63384;
+      text-shadow: 1px 1px 2px #fff;
+    }
+
+    p.tagline {
+      font-style: italic;
+      font-size: 1.2rem;
+      color: #a52a6d;
+      margin-bottom: 40px;
+    }
+
+    section {
+      padding: 20px;
+      max-width: 700px;
+      margin: auto;
+    }
+
+    .about, .feelings, .video, .song, .notes, .days {
+      background: rgba(255, 255, 255, 0.5);
+      border-radius: 20px;
+      margin: 20px auto;
+      padding: 20px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    h2 {
+      color: #e75480;
+      margin-bottom: 10px;
+    }
+
+    video {
+      width: 100%;
+      border-radius: 20px;
+      outline: none;
+    }
+
+    footer {
+      margin-top: 30px;
+      padding: 10px;
+      font-size: 0.9rem;
+      color: #8a3c62;
+    }
+
+    /* Love Notes Box */
+    .notes textarea {
+      width: 100%;
+      padding: 10px;
+      margin-top: 10px;
+      border: 1px solid #ff99b9;
+      border-radius: 10px;
+      font-size: 1rem;
+      background-color: #fff0f5;
+      resize: none;
+    }
+
+    .notes button {
+      background-color: #e75480;
+      color: white;
+      border: none;
+      padding: 10px 20px;
+      border-radius: 10px;
+      margin-top: 10px;
+      cursor: pointer;
+      font-size: 1rem;
+      transition: 0.3s;
+    }
+
+    .notes button:hover {
+      background-color: #c43766;
+    }
+
+    .note-display {
+      margin-top: 20px;
+      text-align: left;
+      max-height: 200px;
+      overflow-y: auto;
+      background: rgba(255, 255, 255, 0.6);
+      border-radius: 10px;
+      padding: 10px;
+    }
+
+    .note {
+      background: #fff;
+      border-radius: 8px;
+      padding: 10px;
+      margin-bottom: 10px;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+      color: #5a1846;
+    }
+
+    /* Floating Hearts Animation */
+    .heart {
+      position: fixed;
+      bottom: -10px;
+      color: #ff69b4;
+      animation: floatUp 6s linear infinite;
+      font-size: 20px;
+      opacity: 0.8;
+    }
+
+    @keyframes floatUp {
+      0% { transform: translateY(0) scale(1); opacity: 1; }
+      100% { transform: translateY(-800px) scale(1.5); opacity: 0; }
+    }
+
+    /* Floating Quotes Animation */
+    .floating-quote {
+      position: fixed;
+      color: #b2226f;
+      font-size: 1.2rem;
+      opacity: 0;
+      animation: floatQuote 10s linear forwards;
+      white-space: nowrap;
+      pointer-events: none;
+    }
+
+    @keyframes floatQuote {
+      0% {
+        transform: translateY(100vh) scale(1);
+        opacity: 0;
+      }
+      10% { opacity: 1; }
+      50% { opacity: 0.8; }
+      100% {
+        transform: translateY(-10vh) scale(1.2);
+        opacity: 0;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>💞 Felt But Not Shared💞</header>
+  <p class="tagline">“Every heartbeat whispers your name, Sridhar…”</p>
+
+  <section class="days">
+    <h2>❤️ Days Since My Heart Chose You</h2>
+    <p id="daysCount" style="font-size: 1.5rem; font-weight: bold;"></p>
+  </section>
+
+  <section class="about">
+    <h2>About Me</h2>
+    <p>Hi, I'm <b>A. Geetha</b> — a girl who believes in true love even if it’s one-sided.  
+    This little page is my heart’s corner, filled with my feelings, memories, and emotions.</p>
+  </section>
+
+  <section class="feelings">
+    <h2>My Feelings</h2>
+    <p>Sometimes, love doesn’t need to be returned.  
+    It just needs to be felt deeply and purely.  
+    I still smile when I think of him — because he taught me what love means. 💖</p>
+  </section>
+
+  <section class="video">
+    <h2>My Emotions in Motion 🎥</h2>
+    <video controls autoplay loop muted>
+      <source src="c:\Users\WELCOME\Downloads\WhatsApp Video 2025-10-23 at 4.38.12 PM (2).mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+    <p style="font-size: 0.9rem; color: #6a1b4d;">(You can replace “your-video.mp4” with your own love video file)</p>
+  </section>
+
+  <section class="song">
+    <h2>Feel My Love 🎶</h2>
+    <audio controls autoplay loop>
+      <source src="c:\Users\WELCOME\Downloads\WhatsApp Audio 2025-10-23 at 4.42.15 PM.mpeg" type="audio/mp3">
+      Your browser does not support the audio element.
+    </audio>
+    <p>Let the music speak what my heart feels…</p>
+  </section>
+
+  <section class="notes">
+    <h2>💌 Leave a Love Note</h2>
+    <p>Write your feelings or sweet message here (anonymously):</p>
+    <textarea id="noteText" rows="3" placeholder="Write something from your heart..."></textarea><br>
+    <button onclick="saveNote()">Send 💖</button>
+
+    <div class="note-display" id="noteDisplay"></div>
+  </section>
+
+  <footer>© 2025 With Love 💗 A. Geetha</footer>
+
+  <script>
+    // Floating Hearts Animation
+    function createHeart() {
+      const heart = document.createElement("div");
+      heart.className = "heart";
+      heart.innerHTML = "💗";
+      heart.style.left = Math.random() * 100 + "vw";
+      heart.style.animationDuration = Math.random() * 3 + 3 + "s";
+      document.body.appendChild(heart);
+      setTimeout(() => heart.remove(), 6000);
+    }
+    setInterval(createHeart, 400);
+
+    // Floating Romantic Quotes
+    const quotes = [
+      "You are my forever… 💞",
+      "Every heartbeat says your name… 💗",
+      "Some loves never fade, they just live silently. 🌸",
+      "I fell for you — quietly, completely, endlessly. 💫",
+      "Even without you, my world still whispers you. 💋",
+    ];
+
+    function createQuote() {
+      const quote = document.createElement("div");
+      quote.className = "floating-quote";
+      quote.innerText = quotes[Math.floor(Math.random() * quotes.length)];
+      quote.style.left = Math.random() * 80 + "vw";
+      quote.style.animationDuration = 10 + Math.random() * 5 + "s";
+      document.body.appendChild(quote);
+      setTimeout(() => quote.remove(), 15000);
+    }
+    setInterval(createQuote, 7000);
+
+    // Love Notes with Local Storage
+    function saveNote() {
+      const text = document.getElementById("noteText").value.trim();
+      if (!text) return alert("Please write something before sending 💌");
+      const notes = JSON.parse(localStorage.getItem("loveNotes") || "[]");
+      notes.push(text);
+      localStorage.setItem("loveNotes", JSON.stringify(notes));
+      document.getElementById("noteText").value = "";
+      displayNotes();
+    }
+
+    function displayNotes() {
+      const notes = JSON.parse(localStorage.getItem("loveNotes") || "[]");
+      const display = document.getElementById("noteDisplay");
+      display.innerHTML = notes.map(n => <div class='note'>${n}</div>).join("");
+    }
+
+    displayNotes();
+
+    // Days Counter
+    const startDate = new Date("2024-02-14"); // ❤️ Change this date to your love start date
+    function updateDaysCounter() {
+      const today = new Date();
+      const diffTime = today - startDate;
+      const diffDays = Math.floor(diffTime / (1000 * 60 * 60 * 24));
+      document.getElementById("daysCount").innerText = It’s been ${diffDays} days since my heart chose you 💞;
+    }
+    updateDaysCounter();
+  </script>
+</body>
+</html>
